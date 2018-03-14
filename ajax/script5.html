@@ -1,0 +1,28 @@
+﻿<html>
+<head>
+<title>ตัวอย่างการใช้คำสั่ง IF</title>
+<script language="javascript">
+function checkgrade()
+{
+	var score;
+	score = document.form1.score.value;
+	if ((score >= 80) && (score <= 100))
+	{	alert("คะแนน = " + score + " คุณได้เกรด A");	}
+	else if ((score >= 70) && (score < 80))
+	{	alert("คะแนน = " + score + " คุณได้เกรด B");	}
+	else if ((score >= 60) && (score < 70))
+	{	alert("คะแนน = " + score + " คุณได้เกรด C");	}
+	else if ((score >= 50) && (score < 60))
+	{	alert("คะแนน = " + score + " คุณได้เกรด D");	}
+	else
+	{	alert("คะแนน = " + score + " คุณได้เกรด F");	}
+}
+</script>
+</head>
+<body>
+<form name="form1">
+กรุณากรอกคะแนนสอบที่ได้ : <input type="text" name="score">
+<input type="button" name="submit" value="Check Grade" onClick="checkgrade();">
+</form>
+</body>
+</html>

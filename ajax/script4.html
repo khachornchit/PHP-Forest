@@ -1,0 +1,19 @@
+﻿<html>
+<head>
+<title>DOM</title>
+<script language="javascript">
+function hello()
+{
+	var yourname;
+	yourname = document.form1.name.value;
+	alert("สวัสดี สบายดีไม๊ คุณ " + yourname);
+}
+</script>
+</head>
+<body>
+<form name="form1">
+กรุณากรอกชื่อของคุณ : <input type="text" name="name">
+<input type="button" name="submit" value="Click Hello" onClick="hello();">
+</form>
+</body>
+</html>

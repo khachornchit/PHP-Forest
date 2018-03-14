@@ -1,0 +1,4 @@
+<?
+	$time = time();
+	echo "$time";
+?>

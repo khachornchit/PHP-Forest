@@ -1,0 +1,3 @@
+<?
+	echo strrev("Hello world!");
+?>

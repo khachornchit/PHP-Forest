@@ -1,0 +1,49 @@
+﻿<html>
+<head>
+<title>โปรแกรมเครื่องคิดเลขอย่างง่าย</title>
+<script language="javascript">
+function cal()
+{
+	var num1, num2;
+	var result;
+	num1 = document.form1.number1.value;
+	num2 = document.form1.number2.value;
+	if (document.form1.elements["operator"][0].checked)
+	{
+		result = (parseInt(num1))+(parseInt(num2));
+	}
+	else if (document.form1.elements["operator"][1].checked)
+	{
+		result = num1 - num2;	
+	}
+	else if (document.form1.elements["operator"][2].checked)
+	{
+		result = num1 * num2;	
+	}
+	else if (document.form1.elements["operator"][3].checked)
+	{
+		result = num1 / num2;	
+	}
+	document.getElementById("show_result").innerHTML = result;
+}
+</script>
+</head>
+<body>
+<h1><font color=blue>โปรแกรมเครื่องคิดเลขอย่างง่าย</font></h1><p>
+<form name="form1">
+<table border=1>
+<tr>
+	<td>ตัวเลขที่ 1 : <input type="text" name="number1" id="number1"></td>
+	<td>	<input type="radio" name="operator" > +
+		<input type="radio" name="operator" > - 
+		<input type="radio" name="operator" > * 
+		<input type="radio" name="operator" >/
+	</td>
+	<td>ตัวเลขที่ 2 : <input type="text" name="number2" id="number2"></td>
+	<td><input type="button" name="button" id="button" value="คำนวณ" onClick="cal();"></td>
+</tr>
+</table>
+<p><h2><font color=red>ผลลัพธ์ <span id=show_result> </span> </font></h2></p>
+</form>
+</body>
+</html>

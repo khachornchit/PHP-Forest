@@ -1,0 +1,27 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-874" />
+<title>Product Form</title>
+<script src="prototype.js" language="javascript" type="text/javascript">
+</script>
+<script language="javascript">
+function Result(Div){
+	var params = Form.serialize("form1");
+	var url="product_query.php";
+	var Addnew=new Ajax.Updater(Div, url, {method:"post", parameters: params});
+}
+</script>
+</head>
+<body>
+<form id="form1"  method="post">
+<table border="0" align="center">
+	<tr>
+	<td><span class="style8">Product Name</span></td>
+	<td><input type="text" name="productname" id="productname"></td>
+	<td colspan="2"><div align="center"><input type="button" value="Search" onClick="Result(msg)"></div></td>
+	</tr>
+</table>
+</form>
+<div align="center" id="msg"></div>
+</body>
+</html>

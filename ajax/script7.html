@@ -1,0 +1,25 @@
+﻿<html>
+<head>
+<title>ตัวอย่างการใช้คำสั่ง While</title>
+<script language="javascript">
+function factorial()
+{
+	var answer = 1;
+	var number;
+	number = document.form1.number.value;
+	while(number >= 1)
+	{
+		answer = answer * number;		
+		number--;
+	} 
+	alert(document.form1.number.value + " factorial = " + answer);
+}
+</script>
+</head>
+<body>
+<form name="form1">
+กรุณากรอกตัวเลขที่ต้องการหาค่าแฟคทอเรียล : <input type="text" name="number">
+<input type="button" name="submit" value="Factorial" onClick="factorial();">
+</form>
+</body>
+</html>

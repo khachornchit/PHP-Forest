@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>แบบฟอร์มสมัครสมาชิก</title>
+</head>
+<body>
+	<form action="memberdata2.php" method="Post">
+		<strong><u>แบบฟอร์มรับสมัครสมาชิก</U></strong>
+		<p>
+			ชื่อ-นามสกุล: <input type="text" name="name">
+		<p>
+			เพศ:<input name="sex" type="radio" value="1"> ชาย <input
+				name="sex" type="radio" value="0"> หญิง
+		<p>
+			ระดับการศึกษา: <select name="education">
+				<option value="1">ต่ำกว่าปริญญาตรี</option>
+				<option value="2">ปริญญาตรี</option>
+				<option value="3">ปริญญาโท</option>
+				<option value="4">ปริญญาเอก</option>
+			</select>
+		<p>
+			ทราบเว็บไซต์นี้จาก: <input type="checkbox" name="source1" value="1">
+			เพื่อน <input type="checkbox" name="source2" value="2">
+			การค้นหาใน Search Engine <input type="checkbox" name="source3"
+				value="3"> โฆษณาทางทีวี/วิทยุ
+		<p>คำแนะนำ:
+		<p>
+			<textarea name="comment"></textarea>
+		<p>
+			<input type="submit" name="Submit" value="ตกลง"> <input
+				type="reset" name="Submit2" value="ยกเลิก">
+		</p>
+	</form>
+</body>
+</html>

@@ -1,0 +1,77 @@
+﻿<html>
+<head>
+<title>เมนูอาหาร</title>
+<script language="javascript">
+function menu()
+{
+	var price1 = 120;
+	var price2 = 150;
+	var price3 = 200;
+	var total_price;
+	if ((document.form1.meal1.checked) && (document.form1.meal2.checked == false) && (document.form1.meal3.checked == false))
+	{
+		total_price = price1;
+	}
+	else if ((document.form1.meal2.checked) && (document.form1.meal1.checked == false) && (document.form1.meal3.checked == false))
+	{
+		total_price = price2;
+	}	
+	else if ((document.form1.meal3.checked) && (document.form1.meal1.checked == false) && (document.form1.meal2.checked == false))
+	{
+		total_price = price3;
+	}
+	else if ((document.form1.meal1.checked) && (document.form1.meal2.checked) && (document.form1.meal3.checked))
+	{
+		total_price = (parseInt(price1)) + (parseInt(price2)) + (parseInt(price3));
+	}
+	else if ((document.form1.meal1.checked) && (document.form1.meal2.checked))
+	{
+		total_price = (parseInt(price1)) + (parseInt(price2));
+	}
+	else if ((document.form1.meal1.checked) && (document.form1.meal3.checked))
+	{
+		total_price = (parseInt(price1)) + (parseInt(price3));
+	}
+	else if ((document.form1.meal2.checked) && (document.form1.meal3.checked))
+	{
+		total_price = (parseInt(price2)) + (parseInt(price3));
+	}
+	else
+	{
+		total_price = 0;
+	}
+	document.getElementById("show_price").innerHTML = total_price;
+}
+</script>
+</head>
+<body>
+<h1><font color=blue>เมนูอาหาร</font></h1><p>
+<form name="form1">
+<table border=1>
+<tr>
+	<td><center>คลิกเลือก</center></td>
+	<td>รายการอาหาร</td>
+	<td>ราคา</td>
+</tr>
+<tr>
+	<td><center><input type="checkbox" name="meal1"></center></td>
+	<td>Spaghetti</td>
+	<td>120</td>		
+</tr>
+<tr>
+	<td><center><input type="checkbox" name="meal2"></center></td>
+	<td>Sanwich</td>
+	<td>150</td>		
+</tr>
+<tr>
+	<td><center><input type="checkbox" name="meal3"></center></td>
+	<td>Pizza</td>
+	<td>200</td>		
+</tr>
+</table>
+	<p><input type="button" name="button" id="button" value="คำนวณค่าอาหาร" onClick="menu();">
+
+<p><h2><font color=red>รวมราคาอาหาร <span id=show_price> </span> </font></h2></p>
+</form>
+</body>
+</html>

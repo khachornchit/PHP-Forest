@@ -1,0 +1,8 @@
+<?
+	ob_start();
+	echo "สร้างตัวแปร \$username และ \$password <p>";
+	setcookie("username", "charnchai", time()+60);
+	setcookie("password", "12345", time()+60);
+	echo "<a href=showcookie.php>คลิกที่นี่ เพื่อตรวจสอบค่า cookie</a>";
+	ob_end_flush(); 
+?>
