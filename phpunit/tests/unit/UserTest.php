@@ -11,7 +11,7 @@ class UserTest extends PHPUnit\Framework\TestCase
 
     public function setUp()
     {
-        $this->user = new \App\Models\User($this->firstName, $this->lastName, $this->email);
+        $this->user = new App\Models\User($this->firstName, $this->lastName, $this->email);
         $this->fullName = $this->firstName . " " . $this->lastName;
     }
 
@@ -48,5 +48,10 @@ class UserTest extends PHPUnit\Framework\TestCase
         $this->assertEquals($variable["lastName"], $this->lastName);
         $this->assertEquals($variable["fullName"], $this->fullName);
         $this->assertEquals($variable["email"], $this->email);
+    }
+
+    public function testGit() {
+        $this->user->setFirstName('Hello');
+        $this->assertEquals("Hello", $this->user->getFirstName());
     }
 }
