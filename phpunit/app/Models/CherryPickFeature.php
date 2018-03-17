@@ -9,5 +9,5 @@
 $car = 'BMW';
 
 if ($car === 'BMW') {
-    $carType = "Luxury";
+    $type = "Luxury";
 }
