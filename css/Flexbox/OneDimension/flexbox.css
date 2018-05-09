@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header, .sidebar, .main, .footer {
+    padding: 10px;
+}
+
+.header {
+    background: #8CC152;
+}
+
+.sidebar {
+    background: #E9573F;
+}
+
+.main {
+    background: #F6BB42;
+}
+
+.footer {
+    background: #D770AD;
+}

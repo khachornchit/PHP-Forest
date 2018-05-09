@@ -1,0 +1,31 @@
+.container {
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 3fr;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container > * {
+    padding: 10px;
+}
+.header {
+    background: #8CC152;
+    grid-column: 1/-1;
+}
+
+.sidebar {
+    background: #E9573F;
+    grid-column: 1/1;
+}
+
+.main {
+    background: #F6BB42;
+    grid-column: 2/3;
+}
+
+.footer {
+    background: #D770AD;
+    grid-column: 1/ span 2;
+}

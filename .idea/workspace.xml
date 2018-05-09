@@ -2,6 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d408a227-0db3-45ea-a22d-c4399b87d4cc" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/css/Flexbox/OneDimension/flexbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/Flexbox/OneDimension/flexbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/Flexbox/TwoDimension_New_Concept/flexbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/Flexbox/TwoDimension_New_Concept/flexbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/Flexbox/TwoDimension_Previous_Concept/flexbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/Flexbox/TwoDimension_Previous_Concept/flexbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/GridLayout/fractionUnit/gridLayout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/GridLayout/fractionUnit/gridLayout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/GridLayout/gridLineNaming/gridLayout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/GridLayout/gridLineNaming/gridLayout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/GridLayout/gridTemplateAreaNaming/gridLayout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/GridLayout/gridTemplateAreaNaming/gridLayout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/GridLayout/gridTemplateAreaNamingGridGap/gridLayout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/GridLayout/gridTemplateAreaNamingGridGap/gridLayout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/GridLayout/pixelRatio/gridLayout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/GridLayout/pixelRatio/gridLayout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/machines/symfony" beforeDir="false" afterPath="$PROJECT_DIR$/machines/symfony" afterDir="false" />
     </list>
@@ -142,11 +158,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProductController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/machines/symfony/src/AppBundle/Controller/ProductController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flexbox.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/Flexbox/OneDimension/flexbox.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -282,10 +307,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1417" />
-    <option name="y" value="90" />
+    <option name="x" value="1457" />
+    <option name="y" value="110" />
     <option name="width" value="1670" />
-    <option name="height" value="924" />
+    <option name="height" value="895" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -301,6 +326,30 @@
             <path>
               <item name="PHPForest" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHPForest" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PHPForest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHPForest" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PHPForest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHPForest" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Flexbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PHPForest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHPForest" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Flexbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="OneDimension" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PHPForest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHPForest" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GridLayout" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -353,7 +402,7 @@
       <workItem from="1525333348680" duration="384000" />
       <workItem from="1525407105528" duration="744000" />
       <workItem from="1525681918624" duration="521000" />
-      <workItem from="1525839195652" duration="1537000" />
+      <workItem from="1525839195652" duration="2186000" />
     </task>
     <task id="LOCAL-00001" summary="Add database to symfony.">
       <created>1524456624458</created>
@@ -362,11 +411,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524456624459</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add database to symfony.">
+      <created>1525840863403</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1525840863403</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34026000" />
+    <option name="totallyTimeSpent" value="34675000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -378,16 +434,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1417" y="90" width="1670" height="924" extended-state="0" />
+    <frame x="1457" y="110" width="1670" height="895" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21257485" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21257485" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3410475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3635294" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -435,13 +491,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Add database to symfony." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/machines/symfony/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/machines/symfony/src/AppBundle/Entity/Product.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -780,7 +829,14 @@
     <entry file="file://$PROJECT_DIR$/machines/symfony/src/AppBundle/Controller/ProductController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/Flexbox/OneDimension/flexbox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
         </state>
       </provider>
     </entry>

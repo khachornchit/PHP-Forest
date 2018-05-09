@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header, .sidebar, .main, .footer {
+    padding: 10px;
+}
+
+.header {
+    background: #8CC152;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    background: #E9573F;
+    flex: 1;
+}
+
+.main {
+    background: #F6BB42;
+    flex: 3;
+}
+
+.footer {
+    background: #D770AD;
+}
