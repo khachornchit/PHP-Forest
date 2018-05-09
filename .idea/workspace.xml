@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d408a227-0db3-45ea-a22d-c4399b87d4cc" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/machines/symfony" beforeDir="false" afterPath="$PROJECT_DIR$/machines/symfony" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/laravel/vendor/composer/" />
@@ -144,8 +145,8 @@
       <file leaf-file-name="ProductController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/machines/symfony/src/AppBundle/Controller/ProductController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+            <state relative-caret-position="315">
+              <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -281,8 +282,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1449" />
-    <option name="y" value="48" />
+    <option name="x" value="1417" />
+    <option name="y" value="90" />
     <option name="width" value="1670" />
     <option name="height" value="924" />
   </component>
@@ -352,7 +353,7 @@
       <workItem from="1525333348680" duration="384000" />
       <workItem from="1525407105528" duration="744000" />
       <workItem from="1525681918624" duration="521000" />
-      <workItem from="1525839195652" duration="968000" />
+      <workItem from="1525839195652" duration="1537000" />
     </task>
     <task id="LOCAL-00001" summary="Add database to symfony.">
       <created>1524456624458</created>
@@ -365,7 +366,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33457000" />
+    <option name="totallyTimeSpent" value="34026000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -377,18 +378,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1449" y="48" width="1670" height="924" extended-state="0" />
+    <frame x="1417" y="90" width="1670" height="924" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21257485" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21257485" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32941177" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.36363637" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3635294" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -778,8 +779,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/machines/symfony/src/AppBundle/Controller/ProductController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+        <state relative-caret-position="315">
+          <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
         </state>
       </provider>
     </entry>
