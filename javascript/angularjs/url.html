@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pitch Gallery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.27/angular.min.js"></script>
+</head>
+<body ng-app="PitchGallery", ng-controller="PitchGalleryController", ng-init="getPDF()">
+<div class="container" id="container"></div>
+<script>
+    var app = angular.module('PitchGallery', []);
+    app.controller('PitchGalleryController', function ($scope, $location) {
+        $scope.getPDF = function () {
+            var url = $location.absUrl();
+            var data = url.slice(url.indexOf('?') + 1).replace('pdfdata=', '');
+            var container = document.getElementById("container")
+
+            // var embed = document.createElement("BUTTON");
+            // var t = document.createTextNode("CLICK ME");
+            // embed.appendChild(t);
+
+            container.innerHTML='<embed src="' + data + '" type="application/pdf" style="width: 100vw; height: 100vh;">';
+        };
+    });
+</script>
+</body>
+</html>

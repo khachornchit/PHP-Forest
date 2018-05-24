@@ -131,7 +131,7 @@
       <file leaf-file-name="Service.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/machines/symfony/src/AppBundle/Entity/Service.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="285">
               <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
               <folding>
                 <element signature="e#126#180#0#PHP" expanded="true" />
@@ -179,8 +179,17 @@
       <file leaf-file-name="flexbox.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/Flexbox/OneDimension/flexbox.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="360">
+              <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ng-storage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript/angularjs/ng-storage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -225,6 +234,7 @@
         <option value="$PROJECT_DIR$/machines/symfony/src/AppBundle/Entity/Customer.php" />
         <option value="$PROJECT_DIR$/machines/symfony/src/AppBundle/Resources/config/doctrine/Customer.orm.yml" />
         <option value="$PROJECT_DIR$/machines/symfony/src/AppBundle/Entity/Service.php" />
+        <option value="$PROJECT_DIR$/javascript/angularjs/ng-storage.html" />
       </list>
     </option>
   </component>
@@ -316,10 +326,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1280" />
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1007" />
+    <option name="width" value="1280" />
+    <option name="height" value="732" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -340,20 +349,13 @@
             <path>
               <item name="PHPForest" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHPForest" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="javascript" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="PHPForest" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHPForest" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="GridLayout" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PHPForest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHPForest" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="GridLayout" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="gridTemplateAreaNamingGridGap" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="javascript" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="angularjs" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -408,6 +410,7 @@
       <workItem from="1525681918624" duration="521000" />
       <workItem from="1525839195652" duration="2508000" />
       <workItem from="1525967976950" duration="236000" />
+      <workItem from="1527176234799" duration="222000" />
     </task>
     <task id="LOCAL-00001" summary="Add database to symfony.">
       <created>1524456624458</created>
@@ -430,11 +433,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525841655596</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add /javascript/angularjs/ng-storage.html">
+      <created>1527176353196</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1527176353196</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35233000" />
+    <option name="totallyTimeSpent" value="35455000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -446,18 +456,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="67" width="1670" height="931" extended-state="0" />
+    <frame x="1280" y="23" width="1920" height="1007" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21257485" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18489583" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
       <window_info anchor="bottom" id="Docker" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.33333334" side_tool="true" visible="true" weight="0.33333334" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32672113" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.36289382" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.6666667" visible="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -473,12 +483,12 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="8" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19270833" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.3290461" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Run" order="3" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="0" visible="true" weight="0.32960325" />
@@ -486,7 +496,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.43729904" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -501,16 +511,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add database to symfony." />
     <MESSAGE value="Add grid layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add grid layout" />
+    <MESSAGE value="Add /javascript/angularjs/ng-storage.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add /javascript/angularjs/ng-storage.html" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/machines/symfony/src/AppBundle/Controller/ProductController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/machines/symfony/src/AppBundle/Resources/Views/product/overview.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -810,7 +814,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/machines/symfony/src/AppBundle/Entity/Service.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="285">
           <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
           <folding>
             <element signature="e#126#180#0#PHP" expanded="true" />
@@ -846,10 +850,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/angularjs/ng-storage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/Flexbox/OneDimension/flexbox.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="360">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
         </state>
       </provider>
     </entry>
