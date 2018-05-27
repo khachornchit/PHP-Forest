@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d408a227-0db3-45ea-a22d-c4399b87d4cc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/machines/symfony" beforeDir="false" afterPath="$PROJECT_DIR$/machines/symfony" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/laravel/vendor/composer/" />
@@ -93,7 +92,7 @@
     <pharConfigPath>$PROJECT_DIR$/laravel/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -216,10 +215,10 @@
       <path value="$PROJECT_DIR$/laravel/vendor/tijsverkoyen/css-to-inline-styles" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="732" />
+    <option name="height" value="730" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -303,6 +302,7 @@
       <workItem from="1525967976950" duration="236000" />
       <workItem from="1527176234799" duration="222000" />
       <workItem from="1527183176061" duration="122000" />
+      <workItem from="1527230403729" duration="38000" />
     </task>
     <task id="LOCAL-00001" summary="Add database to symfony.">
       <created>1524456624458</created>
@@ -339,11 +339,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527183284644</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add /javascript/angularjs/ng-storage.html">
+      <created>1527230418756</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1527230418756</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35577000" />
+    <option name="totallyTimeSpent" value="35615000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -355,9 +362,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="732" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.234375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.234375" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5046875" side_tool="true" weight="0.3328592" />
@@ -366,7 +373,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32672113" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4953125" visible="true" weight="0.3328592" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4953125" visible="true" weight="0.33282673" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -382,12 +389,12 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="8" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19270833" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.3290461" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Run" order="3" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="0" visible="true" weight="0.32960325" />
@@ -395,7 +402,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.43729904" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
