@@ -2,7 +2,7 @@
     display: grid;
     /*grid-template-rows: 1fr 3fr 1fr;*/
     /*grid-template-columns: 1fr 3fr;*/
-    grid-template: "header header" 1fr "sidebar main" 3fr "footer footer" 1fr / 1fr 3fr;
+    grid-template: "header header" 1fr "sidebar main" 5fr "footer footer" 1fr / 1fr 3fr;
     grid-gap: 2px;
     color: #ffffff;
     font-weight: bold;
