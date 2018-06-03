@@ -1,0 +1,15 @@
+{
+  "name": "angularjs-forest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.7.0",
+    "angular-media-queries": "^0.6.1"
+  }
+}

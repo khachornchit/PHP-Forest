@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="angular.js"></script>
+    <script src="/node_modules/angular-media-queries/match-media.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="mainController">
+
+{{1+2}}
+<div>Desktop : {{desktop}}</div>
+<div>Mobile : {{mobile}}</div>
+
+<script>
+    angular.module('myApp', ['matchMedia'])
+        .controller('mainController', ['screenSize', function (screenSize) {
+            $scope.desktop = screenSize.onChange('md, lg', function (match) {
+                $scope.desktop = match;
+            });
+            $scope.mobile = screenSize.onChange('xs, sm', function (match) {
+                $scope.mobile = match;
+            });
+        }]);
+</script>
+</body>
+</html>
