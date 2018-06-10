@@ -2,8 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d408a227-0db3-45ea-a22d-c4399b87d4cc" name="Default" comment="Add /javascript/angularjs/ng-storage.html">
-      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest/part02/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest/part03/end.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest/part03/start.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest/part03/v-cloak.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest/part03/v-else.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest/part03/v-html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest/part03/v-if.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest/part03/v-once.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest/part03/v-pre.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest/part03/v-show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest/part03/v-text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest/part04/end.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest/part04/start.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest/part05/end.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest/part05/start.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest/part06/end.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest/part06/start.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest/part07/count.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest/part07/start.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest/part07/url.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest/part08/end_name.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest/part08/end_xp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest/part08/start_name.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest/part08/start_xp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest/part09/end.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest/part09/start.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest/part10/end.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest/part10/start.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript/vuejs-forest/part10/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/machines/symfony" beforeDir="false" afterPath="$PROJECT_DIR$/machines/symfony" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/laravel/vendor/composer/" />
@@ -95,74 +122,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ng-storage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascript/angularjs-forest/ng-storage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="responsive.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/GridLayout/responsiveLayout/responsive.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Product.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/machines/symfony/src/AppBundle/Entity/Product.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="start.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javascript/vuejs-forest/part03/start.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javascript/vuejs-forest/part02/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="responsive.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/GridLayout/responsiveLayout/responsive.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="match-media.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascript/angularjs-forest/match-media.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="url.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascript/angularjs-forest/url.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -304,7 +268,7 @@
     <option name="x" value="1280" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="height" value="1007" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -397,7 +361,7 @@
       <workItem from="1527403373775" duration="370000" />
       <workItem from="1527502386783" duration="12549000" />
       <workItem from="1527759379504" duration="827000" />
-      <workItem from="1528644278301" duration="1171000" />
+      <workItem from="1528644278301" duration="2074000" />
     </task>
     <task id="LOCAL-00001" summary="Add database to symfony.">
       <created>1524456624458</created>
@@ -445,7 +409,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50532000" />
+    <option name="totallyTimeSpent" value="51435000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -457,14 +421,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
+    <frame x="1280" y="23" width="1920" height="1007" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5046875" side_tool="true" weight="0.3328592" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32672113" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4953125" visible="true" weight="0.3540183" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4953125" weight="0.3540183" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1796875" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="right" id="Database" order="3" />
@@ -783,13 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/angularjs-forest/ng-storage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/GridLayout/responsiveLayout/responsive.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -828,13 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/machines/symfony/src/AppBundle/Entity/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javascript/vuejs-forest/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -842,17 +793,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/vuejs-forest/part02/index.html">
+    <entry file="file://$PROJECT_DIR$/javascript/vuejs-forest/part03/start.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/vuejs-forest/part03/start.html">
+    <entry file="file://$PROJECT_DIR$/machines/symfony/src/AppBundle/Entity/Product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="495">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/angularjs-forest/ng-storage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/vuejs-forest/part02/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
