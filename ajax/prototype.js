@@ -123,7 +123,7 @@ var Class = (function() {
     for (var i = 0, length = properties.length; i < length; i++) {
       var property = properties[i], value = source[property];
       if (ancestor && Object.isFunction(value) &&
-          value.argumentNames().first() == "$super") {
+          value.argumentNames().firstName() == "$super") {
         var method = value;
         value = (function(m) {
           return function() { return ancestor[m].apply(this, arguments); };
@@ -1012,7 +1012,7 @@ Array.from = $A;
 
   function uniq(sorted) {
     return this.inject([], function(array, value, index) {
-      if (0 == index || (sorted ? array.last() != value : !array.include(value)))
+      if (0 == index || (sorted ? array.lastName() != value : !array.include(value)))
         array.push(value);
       return array;
     });
@@ -1083,8 +1083,8 @@ Array.from = $A;
   Object.extend(arrayProto, {
     _each:     _each,
     clear:     clear,
-    first:     first,
-    last:      last,
+    firstName:     first,
+    lastName:      last,
     compact:   compact,
     flatten:   flatten,
     without:   without,
@@ -1967,7 +1967,7 @@ Element.Methods = {
     element = $(element);
     var result = '<' + element.tagName.toLowerCase();
     $H({'id': 'id', 'className': 'class'}).each(function(pair) {
-      var property = pair.first(), attribute = pair.last();
+      var property = pair.first(), attribute = pair.lastName();
       var value = (element[property] || '').toString();
       if (value) result += ' ' + attribute + '=' + value.inspect(true);
     });

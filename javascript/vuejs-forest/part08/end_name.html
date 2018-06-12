@@ -14,7 +14,7 @@
     <div id="app" class="container">
       <div class="row">
         <div class="col-md-12 text-center">
-          <h1>Hello {{fullname}}</h1>
+          <h1>Hello {{fullName}}</h1>
           <ul class="text-left">
             <li>First Name: {{first}}</li>
             <li>Last Name: {{last}}</li>
@@ -45,12 +45,12 @@
     var app = new Vue({
       el: '#app',
       data: {
-        first: '',
-        last: ''
+        firstName: '',
+        lastName: ''
       },
       computed: {
-        fullname: function() {
-          return this.first + " " + this.last
+        fullName: function() {
+          return this.first + " " + this.lastName
         }
       }
     })
